@@ -3,16 +3,18 @@
     padding: 0;
 }
 
+
 header {
     display: flex;
     justify-content: space-around;
-    height: 25vh;
+    height: 23vh;
     color: #420217;
 }
 
 .formata-imagem-header{
     display:flex;
     align-items: center;
+    background-color: white;
 }
 
 .imagem-logo {
@@ -50,4 +52,8 @@ header {
     text-decoration: none;
     font-family: 'Merriweather', serif;
     cursor: pointer;
+}
+
+.cor-fundo{
+    background-color: #f2e0d6;
 }

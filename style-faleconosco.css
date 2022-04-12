@@ -7,6 +7,7 @@
     font-family: 'Merriweather', serif;
     align-items: center;
     font-size: 1.2em;
+    background-color: #f2e0d6;
 }
 
 .formata-input{
@@ -29,5 +30,9 @@
 
 #caixa-mensagem{
     height: 15vh;
+}
 
+.tamanho-logos{
+    max-width: 2%;
+    background-color: #f2e0d6;
 }
