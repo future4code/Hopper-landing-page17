@@ -57,3 +57,55 @@ header {
 .cor-fundo{
     background-color: #f2e0d6;
 }
+
+footer {
+    color: #420217;
+    background-color: white; 
+    height: 18vh;
+    /* width: 100vw; */
+    padding: 0px 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.tamanho-img-pagamento {
+    max-width: 40%;
+    background-color: white;
+    
+}
+
+
+
+.tamanho-logos{
+    max-width: 4%;
+    background-color: #f2e0d6;
+   
+}
+
+
+.footer-left {
+    text-align: justify;
+    
+}
+
+.footer-right {
+    text-align: right;
+    
+    
+}
+
+.text-left {
+    
+    font-size: 1.3em;
+    font-family: 'Merriweather', serif;
+
+}
+
+.text-right {
+    font-size: 1.3em;
+    font-family: 'Merriweather', serif;
+}
