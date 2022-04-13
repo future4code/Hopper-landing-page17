@@ -1,4 +1,4 @@
-.contato{
+.contato {
     margin-top: 3vh;
     display: flex;
     flex-direction: column;
@@ -10,16 +10,16 @@
     background-color: #f2e0d6;
 }
 
-.formata-input{
+.formata-input {
     font-size: 1em;
     color: #420217;
     width: 30%;
-	height: 5vh;
-	border-radius: 10px;
+    height: 5vh;
+    border-radius: 10px;
     border-color: #e4a579;
 }
 
-.botao-submit{
+.botao-submit {
     height: 4vh;
     width: 5vw;
     font-size: 0.8em;
@@ -28,10 +28,68 @@
     cursor: pointer;
 }
 
-#caixa-mensagem{
+#caixa-mensagem {
     height: 15vh;
 }
 
+
+.tamanho-logos {
+    max-width: 2%;
+    background-color: #f2e0d6;
+}
+
+footer {
+    color: #420217;
+    background-color: white;
+    height: 13vh;
+    padding: 0px 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.tamanho-img-pagamento {
+    max-width: 38%;
+    background-color: white;
+
+}
+
+
+
+.tamanho-logos-footer {
+    max-width: 3.5%;
+    background-color: #f2e0d6;
+
+}
+
+
+.footer-left {
+    text-align: justify;
+
+}
+
+.footer-right {
+    text-align: right;
+
+
+}
+
+.text-left {
+    
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    padding-bottom: 2vh;
+
+}
+
+.text-right {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    padding-bottom: 1vh;
+=======
 .tamanho-logo-face{
     width: 2%;
 }
