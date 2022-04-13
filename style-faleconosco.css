@@ -32,6 +32,7 @@
     height: 15vh;
 }
 
+
 .tamanho-logos {
     max-width: 2%;
     background-color: #f2e0d6;
@@ -88,4 +89,30 @@ footer {
     font-family: 'Merriweather', serif;
     font-size: 1.3em;
     padding-bottom: 1vh;
+=======
+.tamanho-logo-face{
+    width: 2%;
+}
+
+.tamanho-logo-insta{
+    width: 1.8%;
+}
+
+.tamanho-logo-twitter{
+    width: 2.1%;
+}
+
+.tamanho-logo-whats{
+    width: 2%;
+}
+
+.formata-logos{
+    text-align: center;
+    color: #420217;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+}
+
+h4{
+    padding-bottom: 1.7vh;
 }
