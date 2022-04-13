@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style-categorias.css">
     <link rel="stylesheet" type="text/css" href="./style-index.css">
     <title>Home</title>
-   
+
 </head>
+
 <body>
-    
-    <h2>Pratos Prontos</h2>
-    <a href="./Catagorias.html"><img class="foto-categorias"
-     src="/Pratos prontos/foto comidas prontas.jpg" 
-    alt="pratos-prontos">
-    </a>
+    <header>
+        <div class="formata-imagem-header">
+            <img class="imagem-logo" src="./img/4food-cut-so-logo.png">
+            <img class="imagem-logo" src="./img/4food-nome.png">
+        </div>
 
-    <h2>Padaria</h2>
-    <a href="./Fotos categorias/Padaria/"><img class="foto-categorias"
-     src="./Fotos categorias/Padaria/Foto padaria.jpg" 
-    alt="Padaria">
-    </a>
+        <a class="formata-link-cor" href="./index.html">Categorias</a>
+        <a class="formata-link-cor" href="./faleconosco.html">Fale Conosco</a>
+        <a class="formata-link-cor" href="">Nosso Time</a>
 
-    <h2>Açougue</h2>
-    <a href="./açougue.html"><img class="foto-categorias"
-     src="./Fotos categorias/Açougue/foto açougue.jpg" 
-    alt="açougue">
-    </a>
-    
-    <h2>Bebidas</h2>
-    <a href="./Bebidas.html"><img class="foto-categorias"
-     src="./Fotos categorias/Bebidas/foto bebidas.jpg" 
-    alt="Bebidas">
-    </a>
 
-    <h2>Hortifruti</h2>
-    <a href="./Hortifruti.html"><img class="foto-categorias"
-     src="./Fotos categorias/Hortifruti/images hortaliças.jpg" 
-    alt="Hortifruti">
-    </a>
+        <div class="label-input-botao">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="senha">Senha</label>
+            <input type="password" name="nome" id="senha">
+            <button class="botao-login" type="submit">Login</button>
+        </div>
+    </header>
+
+    <main class="cor-fundo">
+        <hr style='width: 100%; height:1vh; text-align:center; border:0px; color:#f7a1a1; background:#f7a1a1;' />
+        <hr style='width: 100%; height:4vh; text-align:center; border:0px; color:#420217; background:#420217;' />
+
+        <div >
+            <div>
+                <h2>Pratos Prontos</h2>
+                <a href="./categorias2.html"><img src="./Fotos categorias/Pratos prontos/foto comidas prontas.jpg" 
+                alt="pratos-prontos"></a>    
+            </div>
+            
+             <div>
+                <h2>Padaria</h2>
+                <a href="./padaria.html"><img class="foto-padaria" src="./Fotos categorias/Padaria/Foto padaria.jpg"
+                alt="Padaria"></a>
+ 
+             </div>
+             <div>
+                <h2>Açougue</h2>
+                <a href="./açougue.html"><img class="foto-açougue" src="./Fotos categorias/Açougue/foto açougue.jpg"
+                alt="açougue"></a>
+  
+             </div>
+             <div>
+                <h2>Bebidas</h2>
+                <a href="./Bebidas.html"><img class="foto-bebidas" src="./Fotos categorias/Bebidas/foto bebidas.jpg"
+                alt="Bebidas"></a>
+   
+             </div>   
+
+             <div>
+                <h2>Hortifruti</h2>
+                <a href="./Hortifruti.html"><img class="foto-hortifruti" src="./Fotos categorias/Hortifruti/images hortaliças.jpg" 
+                    alt="Hortifruti"></a>
+
+             </div>
+            
+            
+           
+        </div>
+    </main>
+
+
 </body>
+
+
 </html>
