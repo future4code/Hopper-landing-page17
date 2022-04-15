@@ -108,3 +108,24 @@ footer {
     font-size: 1.3em;
     padding-bottom: 1vh;
 }
+
+.foto-açougue{
+    width: 275px;
+}
+
+.foto-padaria {
+    width: 275px;
+}
+.foto-bebidas{
+    width: 275px;
+}
+.foto-hortifruti{
+    width: 275px;
+}
+.pao-frances{
+    width: 275px;
+}
+.croassant{
+    width: 275px;
+    height: 150px;
+} 
