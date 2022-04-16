@@ -71,6 +71,15 @@ footer {
 
 }
 
+/* .container {
+    display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+    row-gap: 10px;
+    overflow: scroll;
+    justify-items: center;
+    align-items: center;
+} */
 
 .tamanho-img-pagamento {
     max-width: 38%;
@@ -91,12 +100,10 @@ footer {
 
 .footer-right {
     text-align: right;
-
-
 }
 
 .text-left {
-    
+
     font-family: 'Merriweather', serif;
     font-size: 1.3em;
     padding-bottom: 2vh;
@@ -107,4 +114,29 @@ footer {
     font-family: 'Merriweather', serif;
     font-size: 1.3em;
     padding-bottom: 1vh;
+}
+
+.foto-açougue {
+    width: 275px;
+}
+
+.foto-padaria {
+    width: 275px;
+}
+
+.foto-bebidas {
+    width: 275px;
+}
+
+.foto-hortifruti {
+    width: 275px;
+}
+
+.pao-frances {
+    width: 275px;
+}
+
+.croassant {
+    width: 275px;
+    height: 150px;
 }
