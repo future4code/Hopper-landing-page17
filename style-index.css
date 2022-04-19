@@ -71,15 +71,19 @@ footer {
 
 }
 
-/* .container {
+.container {
     display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 10px;
-    overflow: scroll;
-    justify-items: center;
-    align-items: center;
-} */
+    justify-items: left;
+    align-items: center; 
+    padding-top: 5vh;
+    font-family: 'Merriweather', serif;
+    color: #420217;
+    text-align: center;
+    font-size: 1.5em
+}
 
 .tamanho-img-pagamento {
     max-width: 38%;
@@ -139,4 +143,79 @@ footer {
 .croassant {
     width: 275px;
     height: 150px;
+}
+
+@media screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        height: 23vh;
+        color: #420217;
+        font-size: large;
+
+    }
+
+    .formata-link-cor {
+        margin-top: 15vh;
+        color: #420217;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        cursor: pointer;
+    }
+
+
+
+    .formata-imagem-header {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 50%;
+    }
+
+    .imagem-logo {
+        margin-top: 1vh;
+        max-width: 60%;
+        max-height: 100%;
+    }
+
+    .botao-login {
+        height: 15%;
+        width: 25%;
+        font-size: 0.8em;
+        border: 1px solid #420217;
+        background-color: #f2e0d6;
+        cursor: pointer;
+    }
+
+    .label-input-botao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+        row-gap: 1vh;
+
+    }
+
+    header>div>input {
+        width: 55%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
