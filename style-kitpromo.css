@@ -14,6 +14,11 @@
     height: 75%;
 }
 
+#foto-kit1{
+    width: 80%;
+    height: 60%;
+}
+
 .container-kits {
     display: flex;
     flex-direction: column;
