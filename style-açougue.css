@@ -15,13 +15,15 @@ main img{
     color: #420217;
     text-align: center;
     font-size: 1.5em
+
+
+.imagem-compra{
+    width: 5vw;
+    height: 8vh;
 }
-    .imagem-compra{
-        width: 5vw;
-        height: 8vh;
-    }
-    
-    .tamanho-botao{
-        width: 8%;
-        height: 8%;
-    }
+
+.tamanho-botao{
+    width: 8%;
+    height: 8%;
+
+}
