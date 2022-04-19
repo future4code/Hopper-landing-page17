@@ -12,6 +12,14 @@ header {
     font-size: large;
 }
 
+.links-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1vw;
+    justify-content: space-around;
+    justify-items: center;
+}
+
 .formata-imagem-header {
     display: flex;
     align-items: center;
@@ -59,6 +67,26 @@ header {
     background-color: #f2e0d6;
 }
 
+.foto-main {
+    width: 20vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    overflow: scroll; 
+    justify-items: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-family: 'Merriweather', serif;
+    color: #420217;
+    text-align: center;
+    font-size: 1.5em
+}
+
 footer {
     color: #420217;
     background-color: white;
@@ -70,6 +98,7 @@ footer {
     align-items: center;
 
 }
+
 
 .container {
     display: grid;
@@ -85,15 +114,18 @@ footer {
     font-size: 1.5em
 }
 
-.tamanho-img-pagamento {
+#tamanho-img-pagamento {
     max-width: 38%;
     background-color: white;
 
 }
 
-.tamanho-logos {
+
+
+#tamanho-logos-footer {
     max-width: 3.5%;
     background-color: #f2e0d6;
+
 }
 
 
@@ -104,20 +136,22 @@ footer {
 
 .footer-right {
     text-align: right;
+
+
 }
 
 .text-left {
 
     font-family: 'Merriweather', serif;
     font-size: 1.3em;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
 
 }
 
 .text-right {
     font-family: 'Merriweather', serif;
     font-size: 1.3em;
-    padding-bottom: 1vh;
+    padding-bottom: 0.3vh;
 }
 
 .foto-açougue {
@@ -147,12 +181,21 @@ footer {
 
 @media screen and (min-device-width : 414px) and (max-device-width : 736px) {
 
+
     header {
         display: flex;
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
         justify-content: space-around;
         height: 23vh;
         color: #420217;
         font-size: large;
+
+
+    }
 
     }
 
@@ -163,6 +206,7 @@ footer {
         text-decoration: none;
         font-family: 'Merriweather', serif;
         cursor: pointer;
+
     }
 
 
@@ -174,18 +218,35 @@ footer {
         width: 50%;
     }
 
+
+        font-size: 0.8em;
+    }
+    .formata-imagem-header {
+        display: flex;
+        text-align: center;
+        background-color: white;
+        width: 75%;
+    }
+
     .imagem-logo {
         margin-top: 1vh;
         max-width: 60%;
         max-height: 100%;
     }
 
+
     .botao-login {
         height: 15%;
         width: 25%;
         font-size: 0.8em;
         border: 1px solid #420217;
+
         background-color: #f2e0d6;
+        cursor: pointer;
+    }
+
+
+        background-color: #F2E0D6;
         cursor: pointer;
     }
 
@@ -196,6 +257,7 @@ footer {
         align-items: center;
         font-size: 0.7em;
         row-gap: 1vh;
+
 
     }
 
@@ -216,6 +278,50 @@ footer {
         display: flex;
         flex-direction: column;
 
+    }
+
+
+        width: 100%;
+    }
+    header>div>input {
+        width: 55%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3em
+    }
+    .foto-main {
+        width: 55vw;
+    }
+    footer {
+        color: #420217;
+        background-color: white;
+        height: 13vh;
+        padding: 0px 20px;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 0.6em;
+    }
+    .text-left {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 1vh;
+    }
+    .text-right {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 0.1vh;
+    }
+    #tamanho-img-pagamento {
+        max-width: 85%;
+        background-color: white;
+        /* padding-top: 1vh; */
+    }
+    #tamanho-logos-footer {
+        max-width: 10%;
+        background-color: #F2E0D6;
     }
 
 }
