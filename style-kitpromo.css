@@ -4,14 +4,14 @@
     height: 8vh;
 }
 
+main img{
+    height: 30vh;
+    width: 20vw;
+} 
+
 .tamanho-botao{
     width: 8%;
     height: 8%;
-}
-
-.foto-kit{
-    width: 80%;
-    height: 75%;
 }
 
 .container-kits {
@@ -19,6 +19,8 @@
     flex-direction: column;
     padding-top: 2vh;
     text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #420217;
     font-size: 1.2em;
 }
 
@@ -89,6 +91,10 @@
         width: 55vw;
     }
 
+    main img{
+        height: 20vh;
+        width: 40vw;
+    } 
     .imagem-compra{
         width: 5vw;
         height: 4vh;

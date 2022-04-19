@@ -1,17 +1,146 @@
-main img{
-    height: 27vh;
-    width: 28vw;
+* {
+    margin: 0;
+    padding: 0;
 }
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 10px;
-    justify-items: center;
-    align-items: center;
-    padding-top: 5vh;
+
+.imagem-compra{
+    width: 5vw;
+    height: 8vh;
+}
+
+main img{
+    height: 30vh;
+    width: 20vw;
+} 
+
+.tamanho-botao{
+    width: 8%;
+    height: 8%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
     font-family: 'Merriweather', serif;
     color: #420217;
     text-align: center;
-    font-size: 1em
+    font-size: 1.2em;
 }
+
+.tamanho-td-tabela{
+    width: 40vw;
+}
+
+.centraliza{
+    text-align: center;
+    width: 25vw;
+}
+
+@media screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        height: 23vh;
+        color: #420217;
+        font-size: large;
+    }
+    .formata-link-cor {
+        margin-top: 15vh;
+        color: #420217;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .formata-imagem-header {
+        display: flex;
+        text-align: center;
+        background-color: white;
+        width: 75%;
+    }
+    .imagem-logo {
+        margin-top: 1vh;
+        max-width: 60%;
+        max-height: 100%;
+    }
+    .botao-login {
+        height: 15%;
+        width: 25%;
+        font-size: 0.8em;
+        border: 1px solid #420217;
+        background-color: #F2E0D6;
+        cursor: pointer;
+    }
+    .label-input-botao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+        row-gap: 1vh;
+        width: 100%;
+    }
+    header>div>input {
+        width: 55%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3em
+    }
+    .foto-main {
+        width: 55vw;
+    }
+
+    main img{
+        height: 20vh;
+        width: 40vw;
+    } 
+
+    .imagem-compra{
+        width: 5vw;
+        height: 4vh;
+    }
+
+
+    .tamanho-botao{
+        width: 9%;
+        height: 4%;
+    }
+    
+
+    footer {
+        color: #420217;
+        background-color: white;
+        height: 13vh;
+        padding: 0px 20px;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 0.6em;
+    }
+    .text-left {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 1vh;
+    }
+    .text-right {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 0.1vh;
+    }
+    #tamanho-img-pagamento {
+        max-width: 85%;
+        background-color: white;
+    }
+    #tamanho-logos-footer {
+        max-width: 10%;
+        background-color: #F2E0D6;
+    }
+
+ 
+}
+
