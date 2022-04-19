@@ -2,3 +2,13 @@ main img{
     height: 27vh;
     width: 28vw;
 } 
+
+.imagem-compra{
+    width: 5vw;
+    height: 8vh;
+}
+
+.tamanho-botao{
+    width: 8%;
+    height: 8%;
+}
