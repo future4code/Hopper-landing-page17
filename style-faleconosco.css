@@ -13,15 +13,15 @@
 .formata-input {
     font-size: 1em;
     color: #420217;
-    width: 30%;
-    height: 5vh;
+    width: 35%;
+    height: 10%;
     border-radius: 10px;
     border-color: #e4a579;
 }
 
 .botao-submit {
-    height: 4vh;
-    width: 5vw;
+    height: 2%;
+    width: 6%;
     font-size: 0.8em;
     border: 1px solid #420217;
     background-color: #f2e0d6;
@@ -116,4 +116,114 @@ footer {
 
 h4{
     padding-bottom: 1.7vh;
+}
+
+@media screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        height: 23vh;
+        color: #420217;
+        font-size: large;
+    }
+    .formata-link-cor {
+        margin-top: 15vh;
+        color: #420217;
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .formata-imagem-header {
+        display: flex;
+        text-align: center;
+        background-color: white;
+        width: 75%;
+    }
+    .imagem-logo {
+        margin-top: 1vh;
+        max-width: 60%;
+        max-height: 100%;
+    }
+    .botao-login {
+        height: 15%;
+        width: 25%;
+        font-size: 0.8em;
+        border: 1px solid #420217;
+        background-color: #F2E0D6;
+        cursor: pointer;
+    }
+    .label-input-botao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+        row-gap: 1vh;
+        width: 100%;
+    }
+    header>div>input {
+        width: 55%;
+    }
+    .contato {
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        color: #420217;
+        font-family: 'Merriweather', serif;
+        align-items: center;
+        font-size: 1.2em;
+        background-color: #F2E0D6;
+    }
+    .formata-input {
+        font-size: 1em;
+        color: #420217;
+        width: 30%;
+        height: 2vh;
+        border-radius: 10px;
+        border-color: #E4A579;
+    }
+    .botao-submit {
+        height: 4vh;
+        width: 14vw;
+        font-size: 0.8em;
+        border: 1px solid #420217;
+        background-color: #F2E0D6;
+        cursor: pointer;
+    }
+    #caixa-mensagem {
+        height: 6vh;
+    }
+    footer {
+        color: #420217;
+        background-color: white;
+        height: 13vh;
+        padding: 0px 20px;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 0.6em;
+    }
+    .text-left {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 1vh;
+    }
+    .text-right {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 0.1vh;
+    }
+    #tamanho-img-pagamento {
+        max-width: 85%;
+        background-color: white;
+        /* padding-top: 1vh; */
+    }
+    #tamanho-logos-footer {
+        max-width: 10%;
+        background-color: #F2E0D6;
+    }
 }
